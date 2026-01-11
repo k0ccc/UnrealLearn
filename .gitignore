@@ -1,14 +1,21 @@
-Binaries
-DerivedDataCache
-Intermediate
-Saved
-.vscode
-.vs
-*.VC.db
-*.opensdf
-*.opendb
-*.sdf
+# Visual Studio files
+.vscode/
+.vs/
 *.sln
 *.suo
-*.xcodeproj
-*.xcworkspace
+*.opensdf
+*.sdf
+*.code-workspace
+
+# Unreal Engine generated files
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+Script/
+
+# Mac / XCode specific (если вдруг)
+DerivedDataCache/
+Intermediate/
+Saved/
